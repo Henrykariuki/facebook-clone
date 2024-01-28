@@ -1,0 +1,128 @@
+.left-sidebar {
+    position: fixed;
+    left: 0px;
+    width: 280px;
+    height: 650px;
+    background-color: lightgrey;
+}
+
+.left-sidebar-icons {
+    padding-top: 80px;
+}
+
+.left-sidebar-button {
+    display: flex;
+    width: 265px;
+    height: 46px;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.left-sidebar-button:hover {
+    background-color: rgb(185, 184, 184);
+    cursor: pointer;
+}
+
+.left-sidebar-profile-pic-container {
+    width: 35px;
+    height: 35px;
+    margin-right: 12px;
+    margin-left: 8px;
+}
+.left-sidebar-profile-pic {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.left-sidebar-paragraph {
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(58, 56, 56);
+}
+.left-sidebar-icon-container {
+    margin-right: 12px;
+    margin-left: 8px;
+}
+.right-sidebar {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 280px;
+    height: 650px;
+    background-color: lightgrey;
+}
+.right-sidebar-icons {
+    width: 280px;
+    height: 650px;
+    padding-top: 80px;
+}
+.right-sidebar-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-sidebar-contact {
+    font-size: 18px;
+    font-weight: 550;
+    color: rgb(136, 132, 132);
+}
+.right-sidebar-buttons {
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-sidebar-ellipsis-button, .right-sidebar-search-button {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;  
+}
+.right-sidebar-search-button:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}
+.right-sidebar-ellipsis-button:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+.right-sidebar-contact-container {
+    width: 280px;
+    height: 450px;
+    margin-top: 5px;
+}
+
+.right-sidebar-contact-pic {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.contact-pic {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.contact {
+    width: 280px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.right-sidebar-contact-name {
+    margin-left: 8px;
+    font-weight: 550;
+    color: rgb(58, 56, 56);
+}
+.contact:hover {
+    background-color: rgb(185, 184, 184);
+    cursor: pointer;
+}
